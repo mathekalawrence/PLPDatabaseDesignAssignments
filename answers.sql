@@ -5,4 +5,4 @@
 CREATE DATABASE salesDB;
 
 --Dropping Database called demo
---DROP DATABASE demo;
+DROP DATABASE demo;
