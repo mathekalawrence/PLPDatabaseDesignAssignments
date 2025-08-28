@@ -31,10 +31,21 @@ SELECT * FROM Movies;
 
 SELECT * FROM Actors;
 
+SELECT Actors.age
+
+FROM Actors
+
+JOIN MovieActors ON Actors.id = MovieActors_id;
+
 --Viewing/inspecting the table structure
 --DESCRIBE Actors;
 
----DESCRIBE Movies;
+--DESCRIBE Movies;
 
 --SHOW COLUMNS FROM Movies
 
+--SELECT Actors.name 
+--FROM Actors
+JOIN MovieActors ON Actors.id = MovieActors.actor_id
+JOIN Movies ON Movies.id = MovieActors.movie_id
+WHERE Movies.title = 'The fall';
