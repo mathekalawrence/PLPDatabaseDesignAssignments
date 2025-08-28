@@ -25,3 +25,16 @@ INSERT INTO Movies (id, title, year) VALUES
 (113, 'The fall', 2024),
 (44, 'The wrecking blow', 1998),
 (105, 'Wierd Call', 2000);
+
+--Fetching data
+SELECT * FROM Movies;
+
+SELECT * FROM Actors;
+
+--Viewing/inspecting the table structure
+--DESCRIBE Actors;
+
+---DESCRIBE Movies;
+
+--SHOW COLUMNS FROM Movies
+
